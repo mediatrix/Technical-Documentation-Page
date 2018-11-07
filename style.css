@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial';
+}
+  
+@media (min-width: 500px) {
+    #navbar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 300px;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      padding-bottom: 1vh;
+      background-color: silver;
+      opacity: 0.7;
+    }
+}
+
+#navbar h1 {
+    color: #526e2a;
+    text-align: center;
+    height: 3vw;
+}
+  
+#navbar a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #526e2a;
+    text-decoration: none;
+    border-top: 0.5px solid gray;
+    height: 90vw;
+}
+
+#main-doc {
+    padding-left: 330px;
+}
+  
+h2 {
+    color: #526e2a;
+}
+  
+p, ul {
+    margin-left: 2vw;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 5%;
+}
+  
+code {
+    margin-left: 2vw;
+}
